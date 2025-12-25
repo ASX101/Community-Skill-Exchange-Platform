@@ -1,0 +1,10 @@
+{
+  "/page": "app/page.js",
+  "/skills/page": "app/skills/page.js",
+  "/exchanges/page": "app/exchanges/page.js",
+  "/bookmarks/page": "app/bookmarks/page.js",
+  "/messages/page": "app/messages/page.js",
+  "/login/page": "app/login/page.js",
+  "/profile/[id]/page": "app/profile/[id]/page.js",
+  "/skills/[id]/page": "app/skills/[id]/page.js"
+}
