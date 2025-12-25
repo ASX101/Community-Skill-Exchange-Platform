@@ -1,8 +1,0 @@
-:root{--bg:hsl(var(--card)); --fg:hsl(var(--card-foreground)); --muted:hsl(var(--muted));}
-.cardRoot{display:flex;flex-direction:column;background:var(--bg);color:var(--fg);border-radius:12px;overflow:hidden;box-shadow:0 4px 16px rgba(0,0,0,0.04);border:1px solid rgba(0,0,0,0.04)}
-.cardHeader{position:relative}
-.cardImage{width:100%;height:auto;object-fit:cover;display:block}
-.badge{position:absolute;right:8px;top:8px;background:rgba(255,255,255,0.9);padding:4px 8px;border-radius:9999px;font-size:12px}
-.cardContent{padding:12px}
-.cardTitle{font-weight:700;font-size:1rem;margin-bottom:6px}
-.meta{display:flex;align-items:center;gap:8px;font-size:13px;color:var(--muted)}
