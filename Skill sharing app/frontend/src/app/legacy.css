@@ -1,0 +1,32 @@
+/* Legacy fallback styles (applied only when Tailwind utilities aren't available) */
+:root{--background:hsl(var(--background));--foreground:hsl(var(--foreground));--card:hsl(var(--card));--muted-foreground:hsl(var(--muted-foreground));}
+
+/* Basic layout */
+.container{max-width:1280px;margin:0 auto;padding:0 16px}
+
+/* Header */
+header{position:sticky;top:0;z-index:50;background:var(--card);border-bottom:1px solid hsl(var(--border));}
+header .brand{display:flex;align-items:center;gap:8px;font-weight:700}
+
+/* Cards */
+.card{background:var(--card);color:var(--card-foreground);border-radius:8px;overflow:hidden;box-shadow:0 6px 18px rgba(2,6,23,0.06);border:1px solid hsl(var(--border));}
+.card .title{font-weight:700}
+
+/* Footers */
+footer{background:var(--card);border-top:1px solid hsl(var(--border));padding:18px}
+
+/* utility fallbacks for common classes used in markup */
+.hidden{display:none}
+.md\:flex{display:flex}
+.flex{display:flex}
+.items-center{align-items:center}
+.justify-between{justify-content:space-between}
+.space-x-2 > * + *{margin-left:8px}
+.mr-6{margin-right:1.5rem}
+.mt-auto{margin-top:auto}
+
+/* images */
+img{max-width:100%;height:auto}
+
+/* small helper */
+.font-headline{font-family:'Space Grotesk',sans-serif}
